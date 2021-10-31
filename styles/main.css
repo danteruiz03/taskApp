@@ -1,0 +1,83 @@
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(lightblue), to(lightgreen));
+  background: linear-gradient(lightblue, lightgreen);
+}
+
+.canvas {
+  height: 500px;
+  width: 500px;
+  background: white;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.todo-row {
+  height: 100%;
+  position: relative;
+}
+
+.todo-row .todo {
+  width: 92% !important;
+  display: inline-block !important;
+}
+
+.todo-row .add-button {
+  height: 2em;
+  /* overflow: hidden; */
+  position: absolute;
+  top: 8.9%;
+  left: 93.5%;
+}
+
+.todo-row .add-button img {
+  height: 100%;
+}
+
+.todo-row .add-button img:hover {
+  cursor: pointer;
+}
+
+.delete-button {
+  height: 2em;
+  position: absolute;
+  top: 3.9%;
+  left: 94.5%;
+}
+
+.delete-button img {
+  height: 70%;
+}
+
+.delete-button img:hover {
+  cursor: pointer;
+}
+
+.task-list-container {
+  height: 20em;
+  overflow-y: auto;
+}
+
+.task-list-container .task-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.task-list-container .task-list .todo-item {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  background-color: #ddd6d6;
+  position: relative;
+}
+
+.item-count {
+  display: inline-block;
+}
+
+.clear-button {
+  float: right;
+}
+/*# sourceMappingURL=main.css.map */
